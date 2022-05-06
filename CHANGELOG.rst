@@ -2,7 +2,7 @@
 Changelog for package cpr_indoornav_ridgeback
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.0 (2022-05-06)
+------------------
 * Initial public release
 * Contributors: Chris Iverach-Brereton
