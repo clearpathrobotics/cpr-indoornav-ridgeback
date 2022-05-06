@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<launch>
+  <node pkg="cpr_indoornav_ridgeback" type="start_ridgeback_bridge" name="ridgeback_bridge_node" />
+</launch>

@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<launch>
+  <node name="indoornav_ridgeback_power_monitor" pkg="cpr_indoornav_ridgeback" type="ridgeback_power_monitor" />
+</launch>

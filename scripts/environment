@@ -1,0 +1,16 @@
+#!/bin/bash
+
+export RIDGEBACK_FRONT_SICK_LASER=1
+export RIDGEBACK_FRONT_LASER_HOST=192.168.131.20
+export RIDGEBACK_REAR_SICK_LASER=1
+export RIDGEBACK_REAR_LASER_HOST=192.168.131.21
+
+export RIDGEBACK_URDF_EXTRAS=$(catkin_find cpr_indoornav_ridgeback urdf/indoornav_ridgeback.urdf.xacro --first-only)
+
+export RIDGEBACK_CONTROL_EXTRAS=1
+if [ -z "$INDOORNAV_IMU_GX5" ] || [ "$INDOORNAV_IMU_GX5" = "0" ];
+then
+  export RIDGEBACK_CONTROL_EXTRAS_PATH=$(catkin_find cpr_indoornav_ridgeback config/indoornav_um7.yaml --first-only)
+else
+  export RIDGEBACK_CONTROL_EXTRAS_PATH=$(catkin_find cpr_indoornav_ridgeback config/indoornav_gx5.yaml --first-only)
+fi
