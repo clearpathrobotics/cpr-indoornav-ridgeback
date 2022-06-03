@@ -2,8 +2,8 @@
 Changelog for package cpr_indoornav_ridgeback
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.1 (2022-06-03)
+------------------
 * Change the ROS1->2 bridge domain to 91
 * Fix a bug with the BRIDGE_SETUP_PATH envar
 * Update the Ridgeback graphics
