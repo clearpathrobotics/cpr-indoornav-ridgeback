@@ -2,8 +2,8 @@
 Changelog for package cpr_indoornav_ridgeback
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.2 (2022-08-23)
+------------------
 * Add the additional manual input topic to the twist_mux
 * Contributors: Chris Iverach-Brereton
 
