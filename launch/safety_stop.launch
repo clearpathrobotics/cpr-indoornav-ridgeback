@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<launch>
+  <node name="ridgeback_safety_stop_node" type="ridgeback_safety_stop" pkg="cpr_indoornav_ridgeback" />
+</launch>

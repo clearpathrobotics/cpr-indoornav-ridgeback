@@ -13,6 +13,8 @@ install(PROGRAMS
   scripts/environment
   scripts/install
   scripts/ridgeback_power_monitor
+  scripts/ridgeback_safety_stop
+  scripts/ridgeback_twist_repub
   scripts/start_ridgeback_bridge
 
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
