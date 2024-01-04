@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="ridgeback_odom__relay" pkg="topic_tools" type="relay" args="/ridgeback_velocity_controller/odom /platform_control/odom" />
+  <node name="odom_filtered__relay" pkg="topic_tools" type="relay" args="/odometry/filtered /platform_odometry" />
+  <node name="estop__relay" pkg="topic_tools" type="relay" args="/platform/safety_stop /platform/emergency_stop" />
+
+  <node name="twist_republish_node" type="ridgeback_twist_repub" pkg="cpr_indoornav_ridgeback" />
+
+</launch>
