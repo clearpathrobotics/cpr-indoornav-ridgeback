@@ -2,6 +2,11 @@
 Changelog for package cpr_indoornav_ridgeback
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Swap the priorities of /cmd_vel and /manual/cmd_vel to enable teleop assist via the GUI
+* Contributors: Chris Iverach-Brereton
+
 0.4.0 (2024-01-04)
 ------------------
 * Update to use Otto's 2.26 release
